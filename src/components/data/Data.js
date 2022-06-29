@@ -12,10 +12,6 @@ export const nav = [
     path: "/services",
   },
   {
-    text: "blog",
-    path: "/blog",
-  },
-  {
     text: "pricing",
     path: "/pricing",
   },
@@ -27,27 +23,27 @@ export const nav = [
 export const featured = [
   {
     cover: "../images/hero/h1.png",
-    name: "Family House",
+    name: "Body Check-up",
     total: "122 Property",
   },
   {
     cover: "../images/hero/h2.png",
-    name: "House & Villa",
+    name: "Surgery",
     total: "155 Property",
   },
   {
     cover: "../images/hero/h3.png",
-    name: "Apartment",
+    name: "Consultancy",
     total: "300 Property",
   },
   {
     cover: "../images/hero/h4.png",
-    name: "Office & Studio",
+    name: "Diagnostics",
     total: "80 Property",
   },
   {
-    cover: "../images/hero/h6.png",
-    name: "Villa & Condo",
+    cover: "../images/hero/h4.png",
+    name: "Level-up",
     total: "80 Property",
   },
 ]
@@ -55,7 +51,7 @@ export const list = [
   {
     id: 1,
     cover: "../images/list/p-1.png",
-    name: "Red Carpet Real Estate",
+    name: "Cardiology Service Centre",
     location: "210 Zirak Road, Canada",
     category: "For Rent",
     price: "$3,700",
@@ -64,7 +60,7 @@ export const list = [
   {
     id: 2,
     cover: "../images/list/p-2.png",
-    name: "Fairmount Properties",
+    name: "Orthopadeic Specialists",
     location: "5698 Zirak Road, NewYork",
     category: "For Sale",
     price: "$9,750",
@@ -73,7 +69,7 @@ export const list = [
   {
     id: 3,
     cover: "../images/list/p-7.png",
-    name: "The Real Estate Corner",
+    name: "Oncology",
     location: "5624 Mooker Market, USA",
     category: "For Rent",
     price: "$5,860",
@@ -82,7 +78,7 @@ export const list = [
   {
     id: 4,
     cover: "../images/list/p-4.png",
-    name: "Herringbone Realty",
+    name: "Diagnostic Service Centre",
     location: "5621 Liverpool, London",
     category: "For Sale",
     price: "$7,540",
@@ -91,7 +87,7 @@ export const list = [
   {
     id: 5,
     cover: "../images/list/p-5.png",
-    name: "Brick Lane Realty",
+    name: "Test Labs",
     location: "210 Montreal Road, Canada",
     category: "For Rent",
     price: "$4,850",
@@ -100,7 +96,7 @@ export const list = [
   {
     id: 6,
     cover: "../images/list/p-6.png",
-    name: "Banyon Tree Realty",
+    name: "Optical Centre",
     location: "210 Zirak Road, Canada",
     category: "For Sale",
     price: "$2,742",
@@ -181,42 +177,42 @@ export const location = [
 ]
 export const team = [
   {
-    list: "50",
+    list: "Cradiologist",
     cover: "../images/customer/team-1.jpg",
     address: "Liverpool, Canada",
     name: "Sargam S. Singh",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
-    list: "70",
+    list: "Oncologist",
     cover: "../images/customer/team-2.jpg",
     address: "Montreal, Canada",
     name: "Harijeet M. Siller",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
-    list: "80",
+    list: "Dermatologist",
     cover: "../images/customer/team-3.jpg",
     address: "Denever, USA",
     name: "Anna K. Young",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
-    list: "51",
+    list: "Dentist",
     cover: "../images/customer/team-4.jpg",
     address: "2272 Briarwood Drive",
     name: "Michael P. Grimaldo",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
-    list: "42",
+    list: "Neurologist",
     cover: "../images/customer/team-5.jpg",
     address: "2272 Briarwood Drive",
     name: "Michael P. Grimaldo",
     icon: [<i class='fa-brands fa-facebook-f'></i>, <i class='fa-brands fa-linkedin'></i>, <i class='fa-brands fa-twitter'></i>, <i class='fa-brands fa-instagram'></i>],
   },
   {
-    list: "38",
+    list: "Urologist",
     cover: "../images/customer/team-5.jpg",
     address: "Montreal, USA",
     name: "Adam K. Jollio",
@@ -226,79 +222,54 @@ export const team = [
 export const price = [
   {
     plan: "Basic",
-    price: "29",
+    price: "0",
     ptext: "per user, per month",
     list: [
       {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "99.5% Uptime Guarantee",
+        change: "color",icon: <i class='fa-solid fa-x'></i>,
+        text: "Medicines Discount",
       },
       {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "120GB CDN Bandwidth",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "5GB Cloud Storage",
+        change: "color",icon: <i class='fa-solid fa-x'></i>,
+        text: "Free Counsultancy",
       },
       { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Personal Help Support" },
-      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Enterprise SLA" },
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "24 x 7 Support" },
     ],
   },
   {
     best: "Best Value",
     plan: "Standard",
-    price: "49",
+    price: "299",
     ptext: "per user, per month",
     list: [
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "99.5% Uptime Guarantee",
+        text: "Medicines Discount (upto 35%)",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "150GB CDN Bandwidth",
+        text: "Free Counsultancy (upto 3 times)",
       },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "10GB Cloud Storage",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Personal Help Support",
-      },
-      {
-        change: "color",
-        icon: <i class='fa-solid fa-x'></i>,
-        text: "Enterprise SLA",
-      },
+      {  icon: <i class='fa-solid fa-check'></i>, text: "Personal Help Support" },
+      { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "24 x 7 Support" },
     ],
   },
   {
-    plan: "Platinum",
-    price: "79",
-    ptext: "2 user, per month",
+    plan: "Premium",
+    price: "599",
+    ptext: "per user, per month",
     list: [
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "100% Uptime Guarantee",
+        text: "Medicines Discount (upto 50%)",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "200GB CDN Bandwidth",
+        text: "Free Counsultancy (upto 6 times)",
       },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "20GB Cloud Storage",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Personal Help Support",
-      },
-      {
-        icon: <i class='fa-solid fa-check'></i>,
-        text: "Enterprise SLA",
-      },
+      {  icon: <i class='fa-solid fa-check'></i>, text: "Personal Help Support" },
+      {  icon: <i class='fa-solid fa-check'></i>, text: "24 x 7 Support" },
     ],
   },
 ]

@@ -7,20 +7,20 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <Heading title='Search Your Next Home ' subtitle='Find new & featured property located in your local city.' />
+          <Heading title='Search Doctor For Your Problems ' subtitle='Visit Us Get Your Solution' />
 
           <form className='flex'>
             <div className='box'>
+              <span>State</span>
+              <input type='text' placeholder='State' />
+            </div>
+            <div className='box'>
               <span>City/Street</span>
-              <input type='text' placeholder='Location' />
+              <input type='text' placeholder='City/Street' />
             </div>
             <div className='box'>
-              <span>Property Type</span>
-              <input type='text' placeholder='Property Type' />
-            </div>
-            <div className='box'>
-              <span>Price Range</span>
-              <input type='text' placeholder='Price Range' />
+              <span>Problem Type</span>
+              <input type='text' placeholder='Problem Type' />
             </div>
             <div className='box'>
               <h4>Advance Filter</h4>
